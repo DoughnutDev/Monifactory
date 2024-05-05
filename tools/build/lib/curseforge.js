@@ -6,7 +6,7 @@ export const GetModInfo = async (key, modID) => {
   const modData = await fetch(`https://api.curseforge.com/v1/mods/${modID}`, {
     redirect: "follow",
     headers: {
-      "X-Api-Key": key,
+      "X-Api-Key": 50540731-efb9-4ec1-b6ae-fb3ff6c63c0b,
       Accept: "application/json"
     }
   });
